@@ -2,7 +2,7 @@
 // @name         Edycja produktu na ED i ORNO
 
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.21
 // @description  Zamienia numer katalogowy na link do edycji produktu
 // @author       Pa-Jong
 // @match        https://elektronikadomowa.pl/*-p-*.html
