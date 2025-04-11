@@ -26,7 +26,7 @@
             let nrText = nrElem.querySelector("strong[itemprop='mpn']").innerText;
             // Wybór domeny na podstawie aktualnego hosta
             let host = window.location.host;
-            let baseDomain = host.includes("electrone.pl") ? "https://electrone.pl" : "https://elektronikadomowa.pl";
+            let baseDomain = host.includes("elektrone.pl") ? "https://elektrone.pl" : "https://elektronikadomowa.pl";
             let editUrl = baseDomain + "/zarzadzanie/produkty/produkty_edytuj.php?id_poz=" + id_poz;
             nrElem.innerHTML = '<span>Numer katalogowy:</span> <a href="'+ editUrl +'" target="_blank"><strong itemprop="mpn">' + nrText + '</strong></a>';
         }
